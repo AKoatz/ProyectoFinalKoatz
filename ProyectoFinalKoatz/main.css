@@ -1,0 +1,86 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+.headerClass{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+h1{
+    font-weight: 50;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+main{
+    height: 70vh;
+    background-color: rgba(254, 225, 59, 0.364);
+    display: flex;
+    align-items: inherit;
+    justify-content: center;
+    gap: 70px;
+    flex-direction: column;
+}
+
+
+.conversorClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+
+.inputClass{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.botonClass{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.msgClass{
+    
+    color: black;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+}
+
+.addsClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+}
+.gifClass{
+    height: auto;
+}
+.textAddsClass{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 10px;
+    color: gray;
+    text-align: start;
+
+}
+
+.textFooterClass{
+    text-align: end;
+}
+

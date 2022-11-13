@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <!-- enlace a fuentes de google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- enlace css tostify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- enlace css main -->
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Convertidor de Moneda</title>
+</head>
+
+<body>
+    <header class="headerClass">
+        <h1 class="titleClass">Conversor de pesos</h1>
+    </header>
+    <main>
+        <section class="conversorClass">
+            <p class="radioClass">
+                <input type="radio" name="status" value="dolar" id="dolar"> <label for="dolar">Dolar</label>
+                <input type="radio" name="status" value="euro" id="euro"> <label for="euro">Euro</label>
+                <input type="radio" name="status" value="pound" id="pound"> <label for="pound">Pound</label>
+            </p>
+            <input id="input" type="text" class="inputClass" placeholder="Ingresá pesos">
+            <button id="boton" class="botonClass">Calcular</button>
+            <p id="msg" class="msgClass"></p>
+        </section>
+        <section class="addsClass">
+            <div id="gif" class="gifClass"></div>
+            <p class="textAddsClass">Fake add</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="textFooterClass">&copy; 2022 Adrian Koatz</p>
+    </footer>
+
+
+    <!-- enlace JS tostify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- enlace JS main-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
